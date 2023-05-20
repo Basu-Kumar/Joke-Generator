@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(247, 227, 4);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: rgb(32, 26, 2);
+    border: 1px solid rgb(244, 141, 6);
+    border-radius: 8px;
+    position: absolute;
+    left: 37%;
+    top: 22%;
+    height: 320px;
+    width: 320px;
+    padding: 10px 60px;
+}
+
+#smile{
+    display: block;
+    padding: 2px 85px;
+    font-size: 110px;
+
+}
+#joke{
+    color: white;
+    text-align: center;
+}
+
+#btn-div{
+    text-align: center;
+    padding: 4px 10px;
+    margin-top: 30px;
+}
+#btn{
+    border: 1px solid rgb(135, 152, 236);
+    border-radius: 4px;
+    background-color: goldenrod;
+    padding: 8px 8px;
+    cursor: pointer;
+}
